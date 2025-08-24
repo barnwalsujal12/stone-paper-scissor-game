@@ -1,0 +1,11 @@
+name: stone-paper-scissor
+dependencies:
+  - python=3.10
+  - pip
+  - pip conda env update --file environment.yml --name base, but cannot find the file, resulting in this error:
+
+EnvironmentFileNotFound: '/home/runner/work/stone-paper-scissor-game/stone-paper-scissor-game/environment.yml'
+
+Solution:
+1. Add an environment.yml file to your repository root with the:
+      - any-required-pypi-packages
